@@ -1,0 +1,15 @@
+.sidebar {
+  min-width: fit-content;
+  position: fixed;
+  position: -webkit-sticky;
+  top: 90;
+  left: 0;
+  overflow: scroll;
+}
+
+/* Media query */
+@media screen and (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+}

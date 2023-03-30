@@ -1,0 +1,9 @@
+.widgets {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 950px) {
+  .widgets {
+    display: none;
+  }
+}

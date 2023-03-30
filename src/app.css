@@ -1,0 +1,18 @@
+.app {
+  background-color: #f1f1f5;
+  /* height: 100%; */
+}
+
+.app__body {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-left: 345px;
+}
+
+@media screen and (max-width: 800px) {
+  .app__body {
+    justify-content: center;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,28 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebarRow:hover {
+  background-color: rgb(225, 225, 225);
+  cursor: pointer;
+}
+
+.sidebarRow > img {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+  border: 1px solid transparent;
+  border-radius: 30px;
+}
+
+.sidebarRow > .icon {
+  font-size: 25px;
+  color: #2e81f4;
+}
+
+.sidebarRow > h4 {
+  margin-left: 10px;
+  font-weight: 500;
+}

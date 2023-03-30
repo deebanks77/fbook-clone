@@ -1,0 +1,10 @@
+.storyReel {
+  display: flex;
+  margin: 20px 10px;
+  max-width: 500px;
+  overflow: scroll;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
